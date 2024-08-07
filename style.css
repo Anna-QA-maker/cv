@@ -1,0 +1,101 @@
+html {
+  cursor: url("icons8-bat-100 (1).png") 30 40, auto;
+}
+
+
+body{
+  margin: 0;
+  background-color: #1d1e22;
+}
+#parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;
+  background-size: 40% 
+}
+h1 {
+  position: absolute;
+  top: 5vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Candara";
+  text-transform: uppercase;
+  opacity: .7;
+  font-size: 30px;
+  white-space: nowrap;
+}
+.text {  
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+  color: #eee;
+  font-family: "Candara";
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 20px;
+}
+  /* social links */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin-top: 0.25rem;
+      margin-bottom: 1rem;
+      padding-left: 0;
+    }
+
+    .social-icons>li {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .social-icons a {
+      position: relative;
+      background-color: #eee;
+      display: block;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      transition: background-color .3s ease-in-out;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1rem;
+    }
+
+    .social-icons a:hover {
+      background-color: #E6EEC6;
+      transform: scale(1.2);
+    }
+
+    .social-icons a::before {
+      content: "";
+      position: absolute;
+      width: 2rem;
+      height: 2rem;
+      left: 0.5rem;
+      top: 0.5rem;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+     .social-icons .social-icon-Instagram::before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cg transform='translate(731 8910)'%3E%3Crect width='30' height='30' rx='4' transform='translate(-731 -8910)' fill='none'/%3E%3Cg transform='translate(-13.998 42)'%3E%3Crect width='22' height='22' transform='translate(-713.001 -8948)' fill='none'/%3E%3Cpath d='M10.781,7.49a5.528,5.528,0,1,0,5.528,5.528A5.519,5.519,0,0,0,10.781,7.49Zm0,9.122a3.594,3.594,0,1,1,3.594-3.594,3.6,3.6,0,0,1-3.594,3.594Zm7.044-9.348a1.289,1.289,0,1,1-1.289-1.289A1.286,1.286,0,0,1,17.824,7.264Zm3.661,1.309a6.381,6.381,0,0,0-1.742-4.518,6.423,6.423,0,0,0-4.518-1.742c-1.78-.1-7.116-.1-8.9,0A6.414,6.414,0,0,0,1.812,4.05,6.4,6.4,0,0,0,.071,8.568c-.1,1.78-.1,7.116,0,8.9a6.381,6.381,0,0,0,1.742,4.518A6.431,6.431,0,0,0,6.33,23.724c1.78.1,7.116.1,8.9,0a6.381,6.381,0,0,0,4.518-1.742,6.423,6.423,0,0,0,1.742-4.518c.1-1.78.1-7.111,0-8.891Zm-2.3,10.8a3.639,3.639,0,0,1-2.05,2.05c-1.419.563-4.787.433-6.356.433s-4.941.125-6.356-.433a3.639,3.639,0,0,1-2.05-2.05c-.563-1.419-.433-4.787-.433-6.356s-.125-4.941.433-6.356a3.639,3.639,0,0,1,2.05-2.05c1.419-.563,4.787-.433,6.356-.433s4.941-.125,6.356.433a3.639,3.639,0,0,1,2.05,2.05c.563,1.419.433,4.787.433,6.356S19.749,17.96,19.186,19.375Z' transform='translate(-712.997 -8950.237)' fill='%23000'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .social-icons .social-icon-vk::before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath fill='%232787f5' d='M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z'/%3E%3C/svg%3E");
+    }
+
+    .social-icons .social-icon-telegram::before {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%2327a7e7' d='M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z'/%3E%3C/svg%3E");
+    }
+
